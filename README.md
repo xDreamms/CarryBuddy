@@ -11,6 +11,7 @@ This repository covers everything required to start a SUCCESSFUL League of Legen
 
 **Nilrem**([Github](https://github.com/PBCOnGit)) - For helping me bringing the internal core up to the ground. I really appreciate your contributions and amount of work(i mean, most of the commits were yours xD) to put the internal core together with me and Since.
 Wish you all the best and very good luck on whatever projects you will do in the future.
+
 **Since**([Github](https://github.com/Since-T)) - For also helping me bringing the internal core up to the ground. I really appreciate your work and contributions towards the core and the ADK. (Your Kalista script on Rift was very cool btw >_>) I wish you all the best and have fun at work.
 
 **Banthors**([Github](https://github.com/Banthors)) - For helping me out on the  core at the last minute of the project haha. Still, i really appreciate your minhook contribution to the core and updates of it. Wish you all the best.
