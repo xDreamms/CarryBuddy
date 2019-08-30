@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarryBuddy.Updater", "CarryBuddy.Updater\CarryBuddy.Updater.csproj", "{B970F403-C2A1-47D9-8D4F-C245B440E06C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B970F403-C2A1-47D9-8D4F-C245B440E06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B970F403-C2A1-47D9-8D4F-C245B440E06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B970F403-C2A1-47D9-8D4F-C245B440E06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B970F403-C2A1-47D9-8D4F-C245B440E06C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10ABFBB7-F7A1-472B-820F-8D8A7F8BF6E7}
+	EndGlobalSection
+EndGlobal

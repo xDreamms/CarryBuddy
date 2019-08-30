@@ -1,0 +1,59 @@
+#pragma once
+#include "Object.h"
+#include "StaticEnums.h"
+
+class Typedefs {
+public:
+	typedef void(__thiscall* tPrintChat)(DWORD ChatClient, const char* Message, int Color);
+	typedef int*(__thiscall* fnIssueOrder)(void *thisPtr, int Order, Vector *Loc, CObject* Target, bool IsAttackMove, bool IsMinion, DWORD Unknown);
+	typedef float(__cdecl* fnGetAttackCastDelay)(CObject* pObj);
+	typedef float(__cdecl* fnGetAttackDelay)(CObject* pObj);
+	typedef void(__cdecl* fnDrawCircle)(Vector* position, float range, int* color, int a4, float a5, int a6, float alpha);
+	typedef void(__thiscall* fnPrintChat)(DWORD ChatClient, const char* Message, int Color);
+	typedef int(__thiscall* fnGetPing)(void* thisptr);
+	typedef bool(__cdecl* fnWorldToScreen)(Vector* in, Vector* out);
+	typedef char(__stdcall* fnDoEmote)(unsigned int nId);
+	typedef CSpellCastInfo*(__thiscall* fnGetBasicAttack)(CObject* thisptr, int LeaveMeEmpty);
+	typedef int*(__thiscall* fnCastSpell)(DWORD spellbook_addr, CSpell* slot, int SlotID, Vector* targetpos, Vector* startpos, DWORD NetworkID);
+	typedef int(__thiscall * fnGetSpellState)(DWORD spellbook, int slot, byte*);
+
+	typedef bool(__cdecl* fnIsHero)(CObject* pObj);
+	typedef bool(__cdecl* fnIsMissile)(CObject* pObj);
+	typedef bool(__cdecl* fnIsMinion)(CObject* pObj);
+	typedef bool(__cdecl* fnIsTurret)(CObject* pObj);
+	typedef bool(__cdecl* fnIsInhibitor)(CObject* pObj);
+	typedef bool(__cdecl* fnIsTroyEnt)(CObject* pObj);
+	typedef bool(__cdecl* fnIsNexus)(CObject* pObj);
+
+	typedef bool(__thiscall* fnIsAlive)(CObject* pObj);
+	typedef bool(__thiscall* fnIsTargetable)(CObject* pObj);
+};
+
+class CFunctions {
+public:
+	Typedefs::fnIsTurret IsTurret;
+	Typedefs::fnIsMinion IsMinion;
+	Typedefs::fnIsHero IsHero;
+	Typedefs::fnIsMissile IsMissile;
+	Typedefs::fnIsTroyEnt IsTroyEnt;
+	Typedefs::fnIsNexus IsNexus;
+	Typedefs::fnIsInhibitor IsInhibitor;
+
+	Typedefs::fnIsTargetable IsTargetable;
+	Typedefs::fnIsAlive IsAlive;
+
+	Typedefs::fnIssueOrder IssueOrder;
+	Typedefs::fnGetAttackCastDelay GetAttackCastDelay;
+	Typedefs::fnGetAttackDelay GetAttackDelay;
+	Typedefs::fnDrawCircle DrawCircle;
+	Typedefs::fnCastSpell CastSpell;
+	Typedefs::fnPrintChat PrintChat;
+	Typedefs::fnGetPing GetPing;
+	Typedefs::fnWorldToScreen WorldToScreen;
+	Typedefs::fnGetBasicAttack GetBasicAttack;
+	Typedefs::fnGetSpellState GetSpellState;
+	Typedefs::fnDoEmote DoEmote;
+
+};
+
+extern CFunctions Functions; 

@@ -1,0 +1,47 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+.DS_Store
+/CarryBuddy.Core/.vs/CarryBuddy.Core/v15
+
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+
+# Log and Debug files
+*.log
+*.tlog
+Debug/
+Release/
+x64/
